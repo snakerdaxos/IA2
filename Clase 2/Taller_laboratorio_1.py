@@ -2,6 +2,9 @@
 # TALLER LABORATORIO 1 - Conversion a escala de grises
 # ------------------------------------------------------------
 # 1. Pixel amarillo intenso en formato BGR (Azul=0, Verde=255, Rojo=255)
+
+import cv2
+import numpy as np
 pixel = np.array([0, 255, 255], dtype=np.uint8)
 
 # 2. Valor de gris con la formula ponderada (producto punto, orden BGR)
