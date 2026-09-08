@@ -2,6 +2,9 @@
 # TALLER LABORATORIO 2 - Analisis estadistico (histogramas)
 # ------------------------------------------------------------
 # 1. Cargar imagen RGB
+
+import cv2
+import matplotlib.pyplot as plt
 imagen = cv2.imread('foto_demo.jpg')
 
 # 2. Separar en 3 canales (OpenCV usa orden BGR)
